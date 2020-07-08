@@ -1,34 +1,22 @@
 {
-  "name": "visualizing_streaming_data",
+  "name": "webdashboard",
   "version": "1.0.0",
-  "description": "Making a single page web application which will be showing real time data with visual elements.",
-  "main": "index.js",
+  "description": "My Dash",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enigmanshu/VisualizingStreamingData.git"
+    "url": "git+https://github.com/fidia/dataprocessing.git"
   },
-  "keywords": [
-    "streaming",
-    "visualization",
-    "kafka",
-    "websockets",
-    "stream",
-    "processing"
-  ],
-  "author": "Himanshu Chowdhary",
+  "author": "Fidia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hchowdhary/VisualizingStreamingData/issues"
+    "url": "https://github.com/fidia/dataprocessing/issues"
   },
-  "homepage": "https://github.com/hchowdhary/VisualizingStreamingData#readme",
+  "homepage": "https://github.com/fidia/dataprocessing#readme",
   "dependencies": {
-    "bower": "^1.7.9",
-    "cassandra-driver": "^3.1.5",
-    "express": "^4.14.0",
-    "kafka-node": "^0.5.8",
-    "socket.io": "^1.4.8"
+    "express": "^4.17.1"
   }
 }
